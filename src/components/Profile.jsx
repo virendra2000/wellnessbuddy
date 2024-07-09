@@ -150,9 +150,9 @@ const Profile = () => {
                         </div>
                         <form onSubmit={handleSubmit} className="p-5 flex flex-col items-center justify-center gap-4 w-[50%]">
                             <div className="flex flex-row gap-4 w-full">
-                                <input type="text" name="firstName" placeholder="First Name" className="px-4 py-2 outline-none rounded-md w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" value={userData.firstName} onChange={handleInputChange}/>
+                                <input type="text" name="firstName" placeholder="First Name" className="px-4 py-2 outline-none rounded-md w-full w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" value={userData.firstName} onChange={handleInputChange}/>
 
-                                <input type="text" name="lastName" className="px-4 py-2 outline-none rounded-md w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" placeholder="Last Name" value={userData.lastName} onChange={handleInputChange}/>
+                                <input type="text" name="lastName" className="px-4 py-2 outline-none rounded-md w-full w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" placeholder="Last Name" value={userData.lastName} onChange={handleInputChange}/>
                             </div>
                             <div className="flex flex-row gap-4 w-full">
                                 <input type="text" name="gender" placeholder="Gender" className="px-4 py-2 outline-none rounded-md w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" value={userData.gender} onChange={handleInputChange}/>
