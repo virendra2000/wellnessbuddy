@@ -50,13 +50,13 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Breakfast</span>
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={breakfastdiet1} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Scrambled eggs with spinach and tomatoes.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={breakfastdiet1} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Scrambled eggs with spinach and tomatoes.</span>
                         </div>
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={breakfastdiet2} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Whole-grain toast..</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={breakfastdiet2} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Whole-grain toast..</span>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,9 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Mid-Morning Snack</span>
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={midmorningdiet} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small apple with a tablespoon of peanut butter.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={midmorningdiet} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small apple with a tablespoon of peanut butter.</span>
                         </div>
                     </div>
                 </div>
@@ -74,13 +74,13 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Lunch</span>
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={lunchdiet1} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Grilled chicken salad with mixed greens, tomatoes, cucumbers, and a light vinaigrette.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={lunchdiet1} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Grilled chicken salad with mixed greens, tomatoes, cucumbers, and a light vinaigrette.</span>
                         </div>
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={lunchdiet2} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A side of roasted sweet potatoes.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={lunchdiet2} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A side of roasted sweet potatoes.</span>
                         </div>
                     </div>
                 </div>
@@ -88,9 +88,9 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Afternoon Snack</span>
                     
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={afternoonsnack} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small handful of mixed nuts or seeds.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={afternoonsnack} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small handful of mixed nuts or seeds.</span>
                         </div>
                     </div>
                 </div>
@@ -98,17 +98,17 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Dinner</span>
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={dinnerdiet1} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Baked cod or another lean protein.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={dinnerdiet1} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Baked cod or another lean protein.</span>
                         </div>
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={dinnerdiet2} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Steamed broccoli and cauliflower.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={dinnerdiet2} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Steamed broccoli and cauliflower.</span>
                         </div>
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={dinnerdiet3} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small serving of brown rice or quinoa.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={dinnerdiet3} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small serving of brown rice or quinoa.</span>
                         </div>
                     </div>
                 </div>
@@ -116,9 +116,9 @@ const ObesityDiet = () => {
                     <span className='text-2xl font-medium text-black dark:text-white'>Evening Snack</span>
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
-                        <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={eveningsnack} width={300} className='rounded-lg' alt="diet1"/>
-                            <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Low-fat Greek yogurt with a few berries.</span>
+                        <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
+                            <img src={eveningsnack} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                            <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Low-fat Greek yogurt with a few berries.</span>
                         </div>
                     </div>
                 </div>
