@@ -49,7 +49,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Breakfast</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={breakfastdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Scrambled eggs with spinach and tomatoes.</span>
@@ -63,7 +63,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Mid-Morning Snack</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={midmorningdiet} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small apple with a tablespoon of peanut butter.</span>
@@ -73,7 +73,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Lunch</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={lunchdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Grilled chicken salad with mixed greens, tomatoes, cucumbers, and a light vinaigrette.</span>
@@ -87,7 +87,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Afternoon Snack</span>
                     
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={afternoonsnack} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A small handful of mixed nuts or seeds.</span>
@@ -97,7 +97,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Dinner</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={dinnerdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Baked cod or another lean protein.</span>
@@ -115,7 +115,7 @@ const ObesityDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Evening Snack</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={eveningsnack} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Low-fat Greek yogurt with a few berries.</span>
