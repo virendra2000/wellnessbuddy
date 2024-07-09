@@ -142,13 +142,13 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
-                        <div className="w-[50%] flex flex-col items-center justify-center">
+                        <div className="w-full md:w-[50%] flex flex-col items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" className="text-orange-500 dark:text-white" viewBox="0 0 24 24" width="250" height="250" fill="none">
                                 <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" />
                                 <path d="M7.5 17C9.8317 14.5578 14.1432 14.4428 16.5 17M14.4951 9.5C14.4951 10.8807 13.3742 12 11.9915 12C10.6089 12 9.48797 10.8807 9.48797 9.5C9.48797 8.11929 10.6089 7 11.9915 7C13.3742 7 14.4951 8.11929 14.4951 9.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                             </svg>
                         </div>
-                        <form onSubmit={handleSubmit} className="p-5 flex flex-col items-center justify-center gap-4 w-[50%]">
+                        <form onSubmit={handleSubmit} className="p-5 flex flex-col items-center justify-center gap-4 w-full md:w-[50%]">
                             <div className="flex flex-row gap-4 w-full">
                                 <input type="text" name="firstName" placeholder="First Name" className="px-4 py-2 outline-none rounded-md w-full w-[50%] bg-white dark:bg-slate-600 border-2 border-orange-500 dark:border-none text-black dark:text-white" value={userData.firstName} onChange={handleInputChange}/>
 
