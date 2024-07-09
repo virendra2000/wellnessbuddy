@@ -50,7 +50,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Breakfast</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={breakfastdiet1} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Oatmeal topped with fresh berries and a sprinkle of chia seeds.</span>
@@ -64,7 +64,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Mid-Morning Snack</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={midmorningdiet} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A handful of almonds or walnuts.</span>
@@ -74,7 +74,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Lunch</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={lunchdiet1} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Grilled chicken breast or tofu.</span>
@@ -92,7 +92,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Afternoon Snack</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={afternoonsnack} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Carrot and celery sticks with hummus.</span>
@@ -102,7 +102,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Dinner</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={dinnerdiet1} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Baked salmon or a lean protein of choice.</span>
@@ -120,7 +120,7 @@ const OverweightDiet = () => {
         <div className='flex flex-col'>
           <span className='text-2xl font-medium text-black dark:text-white'>Evening Snack</span>
 
-          <div className="flex flex-row py-4">
+          <div className="flex flex-col md:flex-row gap-4 py-4">
             <div className="overweightdiet1 flex flex-col w-[50%]">
                 <img src={eveningsnack} width={300} className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Greek yogurt with a teaspoon of honey</span>
