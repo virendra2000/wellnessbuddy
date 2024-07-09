@@ -64,7 +64,7 @@ const ViewDiet = () => {
             case 'Obesity':
                 return <ObesityDiet />;
             default:
-                return <div>Invalid Diet Category</div>;
+                return <div className="text-lg text-black dark:text-white">Invalid Diet Category or Empty Diet Category . Kindly Update Height Weight and BMI by Calculating in Profile Section. In Profile Page , you have to mention height and weight and click on Calculate and after that Click on Update Button.</div>;
         }
     };
     return (
