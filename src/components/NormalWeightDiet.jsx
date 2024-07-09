@@ -51,7 +51,7 @@ const NormalWeightDiet = () => {
 
                     <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
-                            <img src={breakfastdiet1} className="w-[300]" className='rounded-lg' alt="diet1"/>
+                            <img src={breakfastdiet1} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Greek yogurt with granola and fresh berries.</span>
                         </div>
                         <div className="overweightdiet1 flex flex-col w-[50%]">
