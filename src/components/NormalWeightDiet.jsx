@@ -49,7 +49,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Breakfast</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={breakfastdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Greek yogurt with granola and fresh berries.</span>
@@ -63,7 +63,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Mid-Morning Snack</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={midmorningdiet} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A piece of fruit (apple, banana, or orange).</span>
@@ -73,7 +73,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Lunch</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={lunchdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Grilled chicken Caesar salad with a light dressing.</span>
@@ -87,7 +87,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Afternoon Snack</span>
                     
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={afternoonsnack} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A smoothie made with yogurt, spinach, banana, and berries.</span>
@@ -97,7 +97,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Dinner</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={dinnerdiet1} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Lean protein such as grilled fish or chicken.</span>
@@ -115,7 +115,7 @@ const NormalWeightDiet = () => {
                 <div className='flex flex-col'>
                     <span className='text-2xl font-medium text-black dark:text-white'>Evening Snack</span>
 
-                    <div className="flex flex-row py-4">
+                    <div className="flex flex-col md:flex-row gap-4 py-4">
                         <div className="overweightdiet1 flex flex-col w-[50%]">
                             <img src={eveningsnack} width={300} className='rounded-lg' alt="diet1"/>
                             <span className='px-4 py-4 w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>A handful of mixed nuts.</span>
