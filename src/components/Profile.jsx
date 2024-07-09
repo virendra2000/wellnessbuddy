@@ -141,7 +141,7 @@ const Profile = () => {
                             </Tooltip>
                         </div>
                     </div>
-                    <div className="flex flex-row items-center justify-center w-full">
+                    <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
                         <div className="w-[50%] flex flex-col items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" className="text-orange-500 dark:text-white" viewBox="0 0 24 24" width="250" height="250" fill="none">
                                 <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" />
