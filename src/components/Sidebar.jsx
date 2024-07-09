@@ -85,7 +85,7 @@ const Sidebar = () => {
     }, [gender]);
     return (
         <>
-            <div className="flex flex-row md:flex-col items-center justify-between h-auto w-full bg-orange-500 p-2 rounded-lg shadow-lg shadow-gray-500 dark:shadow-none">
+            <div className="flex flex-row md:flex-col items-center justify-between h-auto md:h-full w-full bg-orange-500 p-2 rounded-lg shadow-lg shadow-gray-500 dark:shadow-none">
                 <ToastContainer autoClose={1000}/>
                 <div className="p-3 flex flex-row items-center">
                     <img src={logo1} className="w-[30px] md:w-[60px]" alt="logo"/>
