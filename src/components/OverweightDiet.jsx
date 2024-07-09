@@ -56,7 +56,7 @@ const OverweightDiet = () => {
                 <span className='px-4 py-4 w-full md:w-[50vh] text-wrap text-lg font-medium text-black dark:text-white'>Oatmeal topped with fresh berries and a sprinkle of chia seeds.</span>
             </div>
             <div className="overweightdiet1 flex flex-col w-full md:w-[50%]">
-                <img src={breakfastdiet2} className="w-full md:w-[30%]" className='rounded-lg' alt="diet1"/>
+                <img src={breakfastdiet2} className="w-full md:w-[20%]" className='rounded-lg' alt="diet1"/>
                 <span className='px-4 py-4 w-full md:w-[50vh]" text-wrap text-lg font-medium text-black dark:text-white'>One Boiled Egg</span>
             </div>
           </div>
