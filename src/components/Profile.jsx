@@ -127,7 +127,7 @@ const Profile = () => {
                 <div className="p-5 h-auto md:h-screen overflow-y-auto">
                     <Sidebar/>
                 </div>
-                <div className="p-5 w-full flex flex-col h-auto gap-4">
+                <div className="p-5 w-full flex flex-col h-auto md:h-screen overflow-y-auto gap-4">
                     <div className="p-3 w-full flex flex-row items-center justify-between">
                         <div className="flex flex-col">
                             <h2 className="text-4xl font-bold text-orange-500 dark:text-white">Profile</h2>
