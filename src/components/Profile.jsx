@@ -124,7 +124,7 @@ const Profile = () => {
         <>
             <div className="flex flex-col md:flex-row min-h-screen bg-slate-100 dark:bg-slate-800">
                 <ToastContainer autoClose={1000}/>
-                <div className="p-5">
+                <div className="p-5 h-auto md:h-screen overflow-y-auto">
                     <Sidebar/>
                 </div>
                 <div className="p-5 w-full flex flex-col h-auto gap-4">
