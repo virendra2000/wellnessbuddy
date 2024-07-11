@@ -54,7 +54,7 @@ const VerifyAccount = () => {
                         <p className="mb-4 text-green-500 dark:text-white font-bold text-center">An OTP has been sent to your email {userData.email}. Please check your email and enter the OTP below.</p>
                         <input type="text" name="code" placeholder="Enter One Time Password" id="verifycode" className="px-4 py-2 w-full bg-transparent border-b-2 border-orange-500 outline-none placeholder-black dark:placeholder-white font-bold text-orange-500 dark:text-white" value={userData.code} onChange={handleInputChange}/>
 
-                        <input type="submit" value="Change Password" name="s1" className="bg-orange-500 px-4 py-2 font-bold text-white rounded-lg cursor-pointer"/>
+                        <input type="submit" value="Verify Account" name="s1" className="bg-orange-500 px-4 py-2 font-bold text-white rounded-lg cursor-pointer"/>
                     </form>
                 </div>
                 <DarkModeButton/>
